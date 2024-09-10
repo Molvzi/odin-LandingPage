@@ -1,0 +1,147 @@
+#header {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px 100px 100px;
+  gap: 50px;
+}
+
+#header .header-logo{
+  font-size: 24px;
+  color: #F9F8FF;
+}
+
+#header-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #E5E7EB;
+  align-items: center;
+}
+
+#header-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+
+#header-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#header-content-text .header-content-text-title{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+#header-content-text .header-content-text-subtitle{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+#header-content img {
+  width: 60%;
+  height: auto;
+  border-radius: 12px;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 30px;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#info {
+  padding: 30px 100px;
+}
+
+#info h2{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+}
+
+#info-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#info-content div {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  gap: 64px;
+}
+
+#info-content img {
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  border: 4px solid #3882F6;
+}
+
+#quote {
+  background-color: #E5E7EB;
+  padding: 100px 200px;
+}
+
+#quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1F2937;
+  margin-bottom: 5px;
+}
+
+#quote span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: right;
+}
+
+#signup {
+  padding: 100px 200px;
+}
+
+#signup .signup-content {
+  background-color: #3882F6;
+  padding: 50px 100px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F9FAF8;
+}
+
+#signup .signup-button {
+  border: 2px solid #F9FAF8;
+}
+
+#footer{
+  background-color: #1F2937;
+  padding: 30px 100px;
+}
+
+#footer p {
+  color: #F9FAF8;
+  text-align: center;
+  font-size: 18px;
+}
